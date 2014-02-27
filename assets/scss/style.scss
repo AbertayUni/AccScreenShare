@@ -1,0 +1,199 @@
+$red: 		#c0392b;
+$blue:		#2980b9;
+$green:		#16a085;
+$orange:	#f39c12;
+
+@import "compass",
+		"normalize",
+		"foundation";
+
+html,
+body {
+	background: darken(white, 2%);
+}
+* {
+	@include box-sizing(border-box);
+}
+img {
+	max-width: 100%;
+}
+@media only screen and (min-width: 767px) {
+	html,
+	body {
+		background: darken(white, 2%);
+		background-image: url(../img/bgBody.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: top center;
+	}
+}
+ul,
+ol {
+	margin-left: 1.8em;
+}
+
+p, a, ul, ol, li {
+	font: {
+		weight: 300;
+	}
+}
+
+a {
+	color: $red;
+	&:visited {
+		color: $red;
+	}
+	&:hover,
+	&:active,
+	&:focus {
+		color: lighten($red, 15%)
+	}
+}
+
+#wrapper {
+	border: solid 5px darken(white, 10%);
+	background: white;
+}
+@media only screen and (min-width: 767px) {
+	#wrapper {
+		margin: {
+			top: 1em;
+			bottom: 1em;
+		}
+	}
+}
+
+#sidebar {
+	
+	padding: {
+		right: 0;
+		left: 0;
+	}
+	nav {
+		
+		select {
+			display: block;
+		}
+		
+		ul {
+			display: none;
+		}
+		@media only screen and (min-width: 767px) {
+
+			
+			select {
+				display: none;
+			}
+			
+
+			ul {
+				display: block;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+					border: {
+						right: solid 5px darken(white, 10%);
+						bottom: solid 5px darken(white, 10%);
+					}
+				li {
+					a {
+						@include transition (linear, 0.2s);
+						display: block;
+						padding-left: 1em;
+						border-left: solid 5px $red;
+						color: $red;
+						padding: {
+							top: 1em;
+							bottom: 1em;
+						}
+						&.filePres {
+							color: $blue;
+							border-left: solid 5px $blue;
+							&:hover {
+								color: lighten($blue, 15%);
+								border-left: solid 30px lighten($blue, 15%);
+							}
+						}
+						&.fileHost {
+							color: $green;
+							border-left: solid 5px $green;
+							&:hover {
+								color: lighten($green, 15%);
+								border-left: solid 30px lighten($green, 15%);
+							}
+						}
+						&.fileCollab {
+							color: $orange;
+							border-left: solid 5px $orange;
+							&:hover {
+								color: lighten($orange, 15%);
+								border-left: solid 30px lighten($orange, 15%);
+							}
+						}
+						&:hover {
+							color: lighten($red, 15%);
+							border-left: solid 30px lighten($red, 15%);
+							background: darken(white, 3%);
+						}
+					}
+					&+li {
+						border-top: solid 1px darken(white, 10%);
+					}
+				}
+			}
+		}
+	}
+}
+
+#main {
+	article {
+		header {
+			// border: {
+			// 	bottom: solid 5px darken(white, 10%);
+			// }
+			margin: {
+				bottom: 1em;
+			}
+			h1 {
+				@include adjust-font-size-to(38px);
+			}
+			h2 {
+				margin-top: -0.5em;
+				@include adjust-font-size-to(30px);
+			}
+		}
+		.screen {
+			border: solid 5px darken(white, 10%);
+		}
+	}
+}
+
+.iex {
+	#wrapper {
+		width: 960px;
+	}
+	#sidebar {
+		width: 250px;
+	}
+	#main {
+		width: 640px;
+		header {
+			div {
+				width: 120px;
+				&+div {
+					width: 480px;
+				}
+			}
+			h1 {
+				@include adjust-font-size-to(36px);
+			}
+			h2 {
+				margin-top: -0.5em;
+				@include adjust-font-size-to(25px);
+			}
+		}
+	}
+	img {
+		width: 100%;
+	}
+}

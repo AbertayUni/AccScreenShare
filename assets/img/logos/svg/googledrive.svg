@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+<g id="Guides">
+</g>
+<g id="Pinterest">
+</g>
+<g id="Prezi">
+</g>
+<g id="SkyDrive">
+</g>
+<g id="Dropbox">
+</g>
+<g id="Drive">
+	<rect fill="#FFFFFF" width="500" height="500"/>
+	<text transform="matrix(1 0 0 1 37.6816 459.6426)" fill="#666666" font-family="'Gotham-Medium'" font-size="77.7589">Google Drive</text>
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="241.0205" y1="127.1945" x2="181.3355" y2="176.9145">
+			<stop  offset="0" style="stop-color:#008C47"/>
+			<stop  offset="1" style="stop-color:#2EB571"/>
+		</linearGradient>
+		<polygon fill="url(#SVGID_1_)" points="193.786,40 71.857,249.883 126.242,349.352 249.255,137.59 		"/>
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="179.8495" y1="256.5492" x2="278.0841" y2="299.5008">
+				<stop  offset="0" style="stop-color:#004AE3"/>
+				<stop  offset="0.3354" style="stop-color:#286EF0"/>
+				<stop  offset="0.5571" style="stop-color:#3E82F7"/>
+				<stop  offset="1" style="stop-color:#3E82F7"/>
+			</linearGradient>
+			<polygon fill="url(#SVGID_2_)" points="428.143,248.869 184.21,249.563 126.242,349.352 369.589,349.303 			"/>
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="349.7967" y1="262.1311" x2="330.6137" y2="203.9895">
+				<stop  offset="0" style="stop-color:#E1A415"/>
+				<stop  offset="1" style="stop-color:#FDD04A"/>
+			</linearGradient>
+			<polygon fill="url(#SVGID_3_)" points="305.753,40.332 193.786,40 312.692,249.199 428.143,248.869 			"/>
+		</g>
+	</g>
+</g>
+<g id="Copy">
+</g>
+<g id="Snaggy">
+</g>
+<g id="Blackboard">
+</g>
+<g id="SLS">
+</g>
+</svg>
